@@ -75,7 +75,7 @@ To test the APIs, you can use tools like Postman or cURL. Here are some example 
    - **Body** (JSON):
      ```json
      {
-       "phone": "011111111
+       "phone": "011111111"
      }
      ```
 4.**Verify otp **
@@ -83,7 +83,7 @@ To test the APIs, you can use tools like Postman or cURL. Here are some example 
    - **Body** (JSON):
      ```json
      {
-       "phone": "011111111,
+       "phone": "011111111",
        "otp_code":"123456"
      }
      ```
