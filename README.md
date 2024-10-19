@@ -43,3 +43,48 @@ php artisan serve
 ```
 
 Visit `http://localhost:8000` in your browser.
+
+## Testing APIs
+
+To test the APIs, you can use tools like Postman or cURL. Here are some example API requests:
+
+1. **User Registration**:
+   - **Endpoint**: `POST /api/register`
+   - **Body** (JSON):
+     ```json
+     {
+       "name": "John Doe",
+       "email": "johndoe@example.com",
+       "password": "password123",
+       "password_confirmation": "password123"
+     }
+     ```
+
+2. **User Login**:
+   - **Endpoint**: `POST /api/login`
+   - **Body** (JSON):
+     ```json
+     {
+       "email": "johndoe@example.com",
+       "password": "password123"
+     }
+     ```
+
+3. **Password Recovery**:
+   - **Endpoint**: `POST /api/forgot-password`
+   - **Body** (JSON):
+     ```json
+     {
+       "phone": "011111111
+     }
+     ```
+4.**Verify otp **
+   - **Endpoint**: `POST /api/verify-otp`
+   - **Body** (JSON):
+     ```json
+     {
+       "phone": "011111111,
+       "otp_code":"123456"
+     }
+     ```
+
