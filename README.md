@@ -78,7 +78,7 @@ To test the APIs, you can use tools like Postman or cURL. Here are some example 
        "phone": "011111111"
      }
      ```
-4.**Verify otp **
+4. **Verify otp **:
    - **Endpoint**: `POST /api/verify-otp`
    - **Body** (JSON):
      ```json
