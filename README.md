@@ -6,7 +6,7 @@ Auth Service is a Laravel-based authentication service designed to provide user 
 
 - User registration and login
 - Password recovery
-- Role-based access control
+- Use Twilio to send otp message
 
 ## Installation
 
